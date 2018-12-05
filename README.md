@@ -19,18 +19,6 @@
 - git commit -am “[msg]”
 - git push
 ---
-### **vi:**
-- http://www.phaget4.org/seidel/vi.html
-
-**command mode:**
-- i - insert mode
-- :wq - write & quit
-
-**insert mode:**
-- ESC - command mode
-
-
----
 ### **.gitignore**
 - touch .gitignore
 - vi .gitignore
@@ -45,6 +33,20 @@
 - git push
 
 ------------
+
+
+### **vi:**
+- http://www.phaget4.org/seidel/vi.html
+
+**command mode:**
+- i - insert mode
+- :wq - write & quit
+
+**insert mode:**
+- ESC - command mode
+
+
+---
 ### **revert:**
 - TODO
 
