@@ -9,17 +9,17 @@
 - git pull --allow-unrelated-histories
 
 ------------
-###**pull (i e fetch + merge):**
+### **pull (i e fetch + merge):**
 - git commit -am “[msg]” 
 - git pull
 
 ------------
-###**push:**
+### **push:**
 - git add .
 - git commit -am “[msg]”
 - git push
 ---
-###**vi:**
+### **vi:**
 - http://www.phaget4.org/seidel/vi.html
 
 **command mode:**
