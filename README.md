@@ -1,43 +1,64 @@
-init:
-git init
-git remote add origin [url]
-git push --set-upstream origin master
+### **init:**
 
-pull/push problem vid lokalt repo started med init (vs clone)?
-git pull --allow-unrelated-histories
+- git init / git clone
+- git remote add origin [url]
+- git push --set-upstream origin master
 
-gitignore
-touch .gitignore
-vi .gitignore
 
-gitignore ignore everything except this
-*!*/!/your/path/here/**
+**pull problem with init initilization (vs clone)?**
+- git pull --allow-unrelated-histories
 
-gitignore not removing remote commits?
-git rm -r --cached .
-add .
-git commit -m “msg”
-git push
+------------
+###**pull (i e fetch + merge):**
+- git commit -am “[msg]” 
+- git pull
 
-Pulling:
-Gör alltid git commit -am “msg” först, sedan
-git pull alternativt git pull origin [branch]
+------------
+###**push:**
+- git add .
+- git commit -am “[msg]”
+- git push
+---
+###**vi:**
+- http://www.phaget4.org/seidel/vi.html
 
-Pushing:
-vid nya filer: git add .
-git commit -am “msg”
-git push origin [branch]
+**command mode:**
+- i - insert mode
+- :wq - write & quit
 
-Reverting:
-TODO
+**insert mode:**
+- ESC - command mode
 
-Fastnat? ESC, :q (:wq), ENTER 
-Roligt:
-prettified log: 
-git log --all --decorate --oneline --graph
-git log
-git shortlog (git shortlog -s för # commits)
 
+---
+### **.gitignore**
+- touch .gitignore
+- vi .gitignore
+
+**"catch-all"(ignore everything except this path)**
+- *!*/!/this/path/**
+
+**gitignore not removing remote commits?**
+- git rm -r --cached .
+- add .
+- git commit -m “msg”
+- git push
+
+------------
+### **revert:**
+- TODO
+
+---
+### **log stuff:** 
+- git log --all --decorate --oneline --graph
+- git log
+- git shortlog (git shortlog -s för # commits)
+---
+### **.md**
+- https://pandao.github.io/editor.md/en.html
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+---
 
 
 
