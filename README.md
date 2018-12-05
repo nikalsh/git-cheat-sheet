@@ -1,4 +1,3 @@
-
 init:
 git init
 git remote add origin [url]
@@ -17,16 +16,16 @@ gitignore ignore everything except this
 gitignore not removing remote commits?
 git rm -r --cached .
 add .
-git commit -m “msg”
+git commit -m â€œmsgâ€
 git push
 
 Pulling:
-Gör alltid git commit -am “msg” först, sedan
+GÃ¶r alltid git commit -am â€œmsgâ€ fÃ¶rst, sedan
 git pull alternativt git pull origin [branch]
 
 Pushing:
 vid nya filer: git add .
-git commit -am “msg”
+git commit -am â€œmsgâ€
 git push origin [branch]
 
 Reverting:
@@ -37,7 +36,7 @@ Roligt:
 prettified log: 
 git log --all --decorate --oneline --graph
 git log
-git shortlog (git shortlog -s för # commits)
+git shortlog (git shortlog -s fÃ¶r # commits)
 
 
 
