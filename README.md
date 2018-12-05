@@ -23,7 +23,7 @@
 - touch .gitignore
 - vi .gitignore
 
-**"catch-all"(ignore everything except this path)**
+**"catch-all"(ignore everything except this/path)**
 - *!*/!/this/path/**
 
 **gitignore not removing remote commits?**
