@@ -22,6 +22,7 @@
 ### **.gitignore**
 - touch .gitignore
 - vi .gitignore
+- https://www.gitignore.io/
 
 **"catch-all"(ignore everything except this/path)**
 - *!*/!/this/path/**
