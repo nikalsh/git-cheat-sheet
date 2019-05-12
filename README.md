@@ -10,6 +10,7 @@
 
 ------------
 ### **pull (i e fetch + merge):**
+- git add .
 - git commit -am “[msg]” 
 - git pull
 
